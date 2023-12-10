@@ -10,9 +10,6 @@ if number < 0:
 elif number > 0:
     d = number % 10
 
-else:
-    print("Last digit of {} is {} and is 0".format(number, d))
-
 if d == 0:
     print("Last digit of {} is {} and is 0".format(number, d))
 
