@@ -5,7 +5,7 @@ def print_last_digit(number):
     if number > 0:
         ld = number % 10
     if number < 0:
-        ld = number % -10
+        ld = number % 10
 
     print("{}".format(ld), end="")
 
